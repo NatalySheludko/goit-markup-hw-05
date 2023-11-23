@@ -498,17 +498,13 @@ a {
   pointer-events: auto;
 }
 
-.modal-window {
-  display: block;
-  margin: 0 auto;
+.modal-window-box {
+  position: absolute;
+  transform: translate(115%, 14%) scale(1);
+  padding: 24px 24px;
   width: 408px;
   border-radius: 4px;
   background: #fcfcfc;
-  margin-top: 80px;
-}
-
-.modal-window-box {
-  padding: 24px 24px;
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
